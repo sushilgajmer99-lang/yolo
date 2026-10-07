@@ -1,0 +1,11 @@
+{
+  "admins": ["sushilgajmer99@gmail.com"],
+  "departments": {
+    "marketing": ["marketing@example.com"],
+    "retail": ["retail@example.com"],
+    "operation": ["operation@example.com"],
+    "finance": ["finance@example.com"],
+    "inventory": ["inventory@example.com"],
+    "support": ["support@example.com"]
+  }
+}

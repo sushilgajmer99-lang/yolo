@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dept Tracker</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div id="login" class="center" hidden>
+  <form id="loginForm" class="card narrow">
+    <h1>Dept Tracker</h1>
+    <p class="muted">Sign in with your department email. We'll send you a one-time link.</p>
+    <input id="email" type="email" placeholder="you@company.com" required autofocus>
+    <button>Email me a sign-in link</button>
+    <p id="loginMsg" class="muted" role="status"></p>
+  </form>
+</div>
+
+<div id="app" hidden>
+  <header>
+    <strong>Dept Tracker</strong>
+    <nav id="tabs"></nav>
+    <span class="spacer"></span>
+    <span id="who" class="muted"></span>
+    <button id="logout" class="ghost">Sign out</button>
+  </header>
+  <main id="main"></main>
+</div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "dept-tracker",
+  "version": "1.0.0",
+  "description": "Weekly task tracker per department with email magic-link access",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushilgajmer99-lang/yolo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushilgajmer99-lang/yolo/issues"
+  },
+  "homepage": "https://github.com/sushilgajmer99-lang/yolo#readme",
+  "dependencies": {
+    "nodemailer": "^10.0.15"
+  }
+}
